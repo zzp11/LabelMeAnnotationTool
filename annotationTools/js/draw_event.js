@@ -1,6 +1,7 @@
 /** @file This file contains the scripts for when the draw event is activated. */
 
 var draw_anno = null;
+var draw_anno_tmp = null;
 var query_anno = null;
 /** This function is called with the draw event is started.  It can be 
  triggered when the user (1) clicks on the base canvas. */
@@ -36,6 +37,7 @@ function StartDrawEvent(event) {
   
   // Move draw canvas to front:
   $('#draw_canvas').css('z-index','0');
+  $('#draw_canvas_tmp').css('z-index','0');
   $('#draw_canvas_div').css('z-index','0');
   
   if(username_flag) submit_username();
@@ -43,6 +45,7 @@ function StartDrawEvent(event) {
   // Create new annotation structure:
   var numItems = $(LM_xml).children('annotation').children('object').length;
   draw_anno = new annotation(numItems);
+  draw_anno_tmp = new annotation(numItems);
   
   // Add first control point:
   draw_x.push(Math.round(x/main_media.GetImRatio()));
@@ -50,6 +53,7 @@ function StartDrawEvent(event) {
   
   // Draw polyline:
   draw_anno.SetDivAttach('draw_canvas');
+  draw_anno_tmp.SetDivAttach('draw_canvas_tmp')
   draw_anno.DrawPolyLine(draw_x, draw_y);
  
   // Set mousedown action to handle when user clicks on the drawing canvas:
@@ -57,8 +61,8 @@ function StartDrawEvent(event) {
   $('#draw_canvas_div').mousedown({obj: this},function(e) {
       return DrawCanvasMouseDown(e.originalEvent);
     });
-  if (bounding_box){
-    draw_anno.bounding_box = true;  
+  if (bounding_box || 1){
+    //draw_anno.bounding_box = true;  
     $('#draw_canvas_div').mousemove({obj: this},function(e) {
       return DrawCanvasMouseMove(e.originalEvent);
     });
@@ -68,7 +72,7 @@ function StartDrawEvent(event) {
   WriteLogMsg('*start_polygon');
 }
 
-function DrawCanvasMouseMove(event){
+function DrawCanvasMouseMove_box(event){
   if (event.target.id != "draw_canvas") return;
   draw_anno.DeletePolygon();
   var xb = GetEventPosX(event);
@@ -78,11 +82,27 @@ function DrawCanvasMouseMove(event){
   var xarr = [draw_x[0], Math.round(xb/scale), Math.round(xb/scale), draw_x[0], draw_x[0]];
   var yarr = [draw_y[0],draw_y[0], Math.round(yb/scale), Math.round(yb/scale), draw_y[0]];
   draw_anno.DrawPolyLine(xarr, yarr);
-
   /*DrawPolygon(draw_anno.div_attach,xarr, yarr,'drawing_bounding_box','stroke="#0000ff" stroke-width="4" fill-opacity="0.0"',scale);
   DrawPoint(draw_anno.div_attach,draw_x[0],draw_y[0],'r="6" fill="#00ff00" stroke="#ffffff" stroke-width="3"',scale);*/
-
 }
+
+function DrawCanvasMouseMove(event){
+  item_id = 'draw_canvas_tmp'
+  $('#'+item_id).children().remove()
+
+  if (event.target.id != item_id) return;
+  var xb = GetEventPosX(event);
+  var yb = GetEventPosY(event);
+  console.log(xb,yb);
+  n = draw_x.length
+  var scale = main_media.GetImRatio();
+  xb = Math.round(xb/scale)
+  yb = Math.round(yb/scale)
+  DrawLineSegment(item_id, draw_x[n-1], draw_y[n-1], xb, yb,'stroke="#0000ff" stroke-width="2"',scale)
+  /*DrawPolygon(draw_anno.div_attach,xarr, yarr,'drawing_bounding_box','stroke="#0000ff" stroke-width="4" fill-opacity="0.0"',scale);
+  DrawPoint(draw_anno.div_attach,draw_x[0],draw_y[0],'r="6" fill="#00ff00" stroke="#ffffff" stroke-width="3"',scale);*/
+}
+
 /** Handles when the user presses the mouse button down on the drawing
 canvas. */
 function DrawCanvasMouseDown(event) {
@@ -125,8 +145,11 @@ function DrawCanvasMouseDown(event) {
   var line_idx = draw_anno.line_ids.length;
   var n = draw_x.length-1;
   
+  stroke = 'stroke="#0000ff" stroke-width="' + $('#stroke-width').val() + '"'
+  console.log(stroke)
+  
   // Draw line segment:
-  draw_anno.line_ids.push(DrawLineSegment(draw_anno.div_attach,draw_x[n-1],draw_y[n-1],draw_x[n],draw_y[n],'stroke="#0000ff" stroke-width="1"',scale));
+  draw_anno.line_ids.push(DrawLineSegment(draw_anno.div_attach,draw_x[n-1],draw_y[n-1],draw_x[n],draw_y[n], stroke,scale));
 
   // Set cursor to be crosshair on line segment:
   $('#'+draw_anno.line_ids[line_idx]).css('cursor','crosshair');
