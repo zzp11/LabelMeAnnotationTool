@@ -195,7 +195,7 @@ function annotation(anno_id) {
         this.line_ids = Array();
         for(var i = 0; i < xp.length-1; i++) {
             // Draw line segment:
-            this.line_ids.push(DrawLineSegment(this.div_attach, xp[i],yp[i],xp[i+1],yp[i+1],'stroke="#0000ff" stroke-width="4"',im_ratio));
+            this.line_ids.push(DrawLineSegment(this.div_attach, xp[i],yp[i],xp[i+1],yp[i+1],'stroke="#0000ff" stroke-width="1"',im_ratio));
 
             // Set cursor to be crosshair on line segment:
             $('#'+this.line_ids[i]).css('cursor','crosshair');

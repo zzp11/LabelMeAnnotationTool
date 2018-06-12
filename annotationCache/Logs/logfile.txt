@@ -223,3 +223,167 @@
 05-Jun-2012 16:40:16 127.0.0.1 *start_loading
 05-Jun-2012 16:40:16 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.53 Safari/536.5
 05-Jun-2012 16:40:16 127.0.0.1 *done_loading_Images/example_folder/img3.jpg
+11-Jun-2018 12:45:32 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+11-Jun-2018 12:45:32 127.0.0.1 *start_loading
+11-Jun-2018 12:45:37 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+11-Jun-2018 12:45:37 127.0.0.1 *start_loading
+11-Jun-2018 12:45:39 127.0.0.1 *start_loading
+11-Jun-2018 12:45:39 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+11-Jun-2018 12:45:39 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 02:07:12 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 02:07:12 127.0.0.1 *start_loading
+12-Jun-2018 02:07:13 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 02:07:13 127.0.0.1 *start_loading
+12-Jun-2018 02:07:14 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 02:28:01 127.0.0.1 *start_polygon
+12-Jun-2018 02:28:05 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 02:33:17 127.0.0.1 *start_polygon
+12-Jun-2018 02:33:18 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 03:44:34 127.0.0.1 *start_loading
+12-Jun-2018 03:44:34 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:44:34 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:44:38 127.0.0.1 *start_polygon
+12-Jun-2018 03:44:40 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 03:44:43 example_folder img1 2 3 127.0.0.1  a 1 anonymous cpts_not_modified 0 0
+12-Jun-2018 03:44:46 127.0.0.1 *start_polygon
+12-Jun-2018 03:44:48 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 03:44:53 example_folder img1 3 4 127.0.0.1  b 2 anonymous cpts_not_modified 0 0
+12-Jun-2018 03:46:28 127.0.0.1 *start_loading
+12-Jun-2018 03:46:28 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:46:28 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:46:32 127.0.0.1 *start_polygon
+12-Jun-2018 03:46:37 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 03:47:07 127.0.0.1 *start_loading
+12-Jun-2018 03:47:07 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:47:08 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:47:09 127.0.0.1 *start_polygon
+12-Jun-2018 03:51:19 127.0.0.1 *start_loading
+12-Jun-2018 03:51:19 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:51:20 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:51:20 127.0.0.1 *start_polygon
+12-Jun-2018 03:51:29 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 03:55:47 127.0.0.1 *start_loading
+12-Jun-2018 03:55:47 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:55:48 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:55:48 127.0.0.1 *start_polygon
+12-Jun-2018 03:56:25 127.0.0.1 *start_loading
+12-Jun-2018 03:56:25 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:56:25 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:56:26 127.0.0.1 *start_polygon
+12-Jun-2018 03:57:03 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:57:03 127.0.0.1 *start_loading
+12-Jun-2018 03:57:03 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:57:04 127.0.0.1 *start_polygon
+12-Jun-2018 03:58:18 127.0.0.1 *start_loading
+12-Jun-2018 03:58:18 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 03:58:19 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 03:58:19 127.0.0.1 *start_polygon
+12-Jun-2018 06:08:54 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:08:54 127.0.0.1 *start_loading
+12-Jun-2018 06:08:55 127.0.0.1 *start_loading
+12-Jun-2018 06:08:55 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:09:22 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:09:22 127.0.0.1 *start_loading
+12-Jun-2018 06:09:22 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:18:06 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:18:06 127.0.0.1 *start_loading
+12-Jun-2018 06:18:06 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:19:39 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:19:39 127.0.0.1 *start_loading
+12-Jun-2018 06:19:39 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:23:37 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:23:37 127.0.0.1 *start_loading
+12-Jun-2018 06:23:58 127.0.0.1 *start_loading
+12-Jun-2018 06:23:58 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:23:59 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:28:32 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:28:32 127.0.0.1 *start_loading
+12-Jun-2018 06:28:33 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:28:49 127.0.0.1 *start_polygon
+12-Jun-2018 06:28:51 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 06:36:41 127.0.0.1 *start_loading
+12-Jun-2018 06:36:41 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:36:41 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:38:53 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:38:53 127.0.0.1 *start_loading
+12-Jun-2018 06:38:54 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:39:19 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:39:19 127.0.0.1 *start_loading
+12-Jun-2018 06:39:19 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:41:58 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:41:58 127.0.0.1 *start_loading
+12-Jun-2018 06:41:59 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+12-Jun-2018 06:54:44 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:54:44 127.0.0.1 *start_loading
+12-Jun-2018 06:54:45 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:54:45 127.0.0.1 *start_loading
+12-Jun-2018 06:54:46 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 06:55:41 127.0.0.1 *start_loading
+12-Jun-2018 06:55:41 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:55:41 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 06:56:11 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:56:11 127.0.0.1 *start_loading
+12-Jun-2018 06:56:11 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 06:58:17 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:58:17 127.0.0.1 *start_loading
+12-Jun-2018 06:58:29 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:58:29 127.0.0.1 *start_loading
+12-Jun-2018 06:58:30 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 06:58:52 127.0.0.1 *start_loading
+12-Jun-2018 06:58:52 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:58:52 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 06:59:10 127.0.0.1 *start_loading
+12-Jun-2018 06:59:10 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 06:59:11 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:01:06 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:01:06 127.0.0.1 *start_loading
+12-Jun-2018 07:01:07 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:01:56 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:01:56 127.0.0.1 *start_loading
+12-Jun-2018 07:01:57 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:02:26 127.0.0.1 *start_loading
+12-Jun-2018 07:02:26 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:02:27 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:02:39 127.0.0.1 *start_loading
+12-Jun-2018 07:02:39 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:02:40 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:09:32 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:09:32 127.0.0.1 *start_loading
+12-Jun-2018 07:09:33 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:09:59 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:09:59 127.0.0.1 *start_loading
+12-Jun-2018 07:10:00 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:10:06 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:10:06 127.0.0.1 *start_loading
+12-Jun-2018 07:10:07 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:10:11 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:10:11 127.0.0.1 *start_loading
+12-Jun-2018 07:10:11 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:10:29 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:10:29 127.0.0.1 *start_loading
+12-Jun-2018 07:10:29 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:10:44 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:10:44 127.0.0.1 *start_loading
+12-Jun-2018 07:10:45 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:10:55 127.0.0.1 *start_loading
+12-Jun-2018 07:10:55 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:10:56 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:11:41 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:11:41 127.0.0.1 *start_loading
+12-Jun-2018 07:11:41 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:11:42 127.0.0.1 *start_loading
+12-Jun-2018 07:11:42 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:11:44 127.0.0.1 *start_polygon
+12-Jun-2018 07:11:47 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 07:12:19 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 07:12:19 127.0.0.1 *start_loading
+12-Jun-2018 07:12:19 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 07:12:21 127.0.0.1 *start_polygon
+12-Jun-2018 07:12:24 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 08:07:01 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 08:07:01 127.0.0.1 *start_loading
+12-Jun-2018 08:07:02 127.0.0.1 *Browser_Information Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+12-Jun-2018 08:07:02 127.0.0.1 *start_loading
+12-Jun-2018 08:07:02 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+12-Jun-2018 08:07:04 127.0.0.1 *start_polygon
+12-Jun-2018 08:07:38 127.0.0.1 *What_is_this_object_query

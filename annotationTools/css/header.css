@@ -80,6 +80,20 @@
 	margin-bottom:0px;
 	display:block;
 }
+#label_stroke_width{
+	position:absolute;
+    top:8px;
+	left:750px;
+	background-color:#fff;
+	border: 2px solid #000;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	display:inline-block;
+}
 
 .labelBtn, img.labelBtn {
 	background-color:#fff;
