@@ -549,3 +549,12 @@
 12-Jun-2018 12:08:10 127.0.0.1 *Deleting_object
 12-Jun-2018 12:08:10 example_folder img1 5 5 127.0.0.1  aa 0 anonymous cpts_not_modified 0 1
 12-Jun-2018 12:08:10 127.0.0.1 *Closed_Edit_Popup
+12-Jun-2018 12:10:41 127.0.0.1 *start_polygon
+12-Jun-2018 12:10:46 127.0.0.1 *What_is_this_object_query
+12-Jun-2018 12:11:20 example_folder img1 5 6 127.0.0.1  asd 1 anonymous cpts_not_modified 1 1
+12-Jun-2018 12:11:24 127.0.0.1 *Opened_Edit_Popup
+12-Jun-2018 12:11:26 127.0.0.1 *Deleting_object
+12-Jun-2018 12:11:26 example_folder img1 6 6 127.0.0.1  asd 0 anonymous cpts_not_modified 1 2
+12-Jun-2018 12:11:26 127.0.0.1 *Closed_Edit_Popup
+12-Jun-2018 12:12:04 127.0.0.1 *start_polygon
+12-Jun-2018 12:12:06 127.0.0.1 *What_is_this_object_query
